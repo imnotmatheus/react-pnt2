@@ -13,7 +13,7 @@ function User(props) {
             <img src={props.Picture} />
           </div>
           <div className="user-item__info">
-            <h2>{props.UserName}</h2>
+            <h2>Nombre: {props.UserName}</h2>
             <h3>{props.Title}</h3>
           </div>
         </a>

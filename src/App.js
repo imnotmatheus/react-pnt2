@@ -4,7 +4,7 @@ import UserList from "./components/User/UserList";
 function App() {
   return (
     <div>
-      <l3>Pagina de inicio</l3>
+      <h3>Pagina de inicio</h3>
       <br />
       <UserList />
     </div>
