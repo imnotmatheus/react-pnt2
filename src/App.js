@@ -1,11 +1,12 @@
-import User from "./components/User";
+import "./App.css";
+import UserList from "./components/User/UserList";
 
 function App() {
   return (
     <div>
-      <h3>Pagina de inicio</h3>
-      <User nombre={"Ana"} apellido={"Termignoni"}/>
-      <User nombre={"Matheus"} apellido={"Reguta"}/>
+      <l3>Pagina de inicio</l3>
+      <br />
+      <UserList />
     </div>
   );
 }
