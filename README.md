@@ -1,3 +1,7 @@
+# Descripción general
+
+Repositorio de estudio para PNT2 (React app). Basado en [pnt2-2025-c1-appreact](https://github.com/ORT-PabloFernandez/pnt2-2025-c1-appreact)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
