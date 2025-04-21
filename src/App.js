@@ -1,5 +1,6 @@
 import "./App.css";
 import UserList from "./components/User/UserList";
+import BeerList from "./components/Beer/BeerList"
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <h3>Pagina de inicio</h3>
       <br />
       <UserList />
+      <BeerList />
     </div>
   );
 }

@@ -37,3 +37,5 @@ const beers = [
     type: "Wheat",
   },
 ];
+
+export default beers
