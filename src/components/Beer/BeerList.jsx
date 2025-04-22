@@ -1,14 +1,23 @@
-import beers from "../moc/beers"
-import Beer from "./Beer"
+import Beer from "./Beer";
+import beers from "../moc/beers.js";
 
-const BeerList = () => {
-    console.log("Cant beers:", beers.length)
-    return (
-    <ul>
-        { beers.map(b =>
-            <Beer label={b.label} name={b.name} type={b.type} abv={b.abv} key={b.name}/>
-        ) }
-    </ul>)
+function BeerList(props) {
+  return (
+    <div
+      style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}
+    >
+      {beers.map((beer, index) => (
+        <Beer
+          key={index}
+          name={beer.name}
+          abv={beer.abv}
+          label={beer.label}
+          type={beer.type}
+          onComprar={props.onComprar}
+        />
+      ))}
+    </div>
+  );
 }
 
-export default BeerList
+export default BeerList;
